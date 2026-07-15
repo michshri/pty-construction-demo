@@ -385,6 +385,101 @@ section > p + p {
   margin-top: 3rem;
 }
 
+/* ── Trust Section ── */
+
+.trust-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.trust-card {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--color-border);
+  border-radius: 0;
+  padding: 2rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.trust-card h3 {
+  margin-bottom: 0.75rem;
+  color: var(--color-gold-dark);
+}
+
+.trust-card p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.94rem;
+}
+
+/* ── Contact Page ── */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  padding: 2rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.contact-list {
+  padding-left: 1.15rem;
+  color: var(--color-text-muted);
+  margin: 1rem 0 0;
+}
+
+.contact-list li + li {
+  margin-top: 0.55rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
 /* ── Dark Section ── */
 
 .dark {
@@ -453,6 +548,21 @@ footer .footer-disclaimer {
   opacity: 0.65;
   max-width: 720px;
   margin-top: 1.5rem;
+}
+
+footer .footer-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--color-gold-light);
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+footer .footer-link:hover {
+  color: #fff;
 }
 
 footer .footer-copy {
