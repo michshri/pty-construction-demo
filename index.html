@@ -14,183 +14,7 @@ Vanguardia Construction and Property Management | Panama
 Premium construction, renovation and property management services in Panama.
 ">
 
-<style>
-
-* {
-box-sizing:border-box;
-}
-
-body {
-margin:0;
-font-family:Arial, sans-serif;
-color:#333;
-background:#faf8f2;
-line-height:1.6;
-}
-
-
-nav {
-
-position:fixed;
-top:0;
-width:100%;
-background:white;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 8%;
-z-index:10;
-box-shadow:0 2px 10px #0002;
-
-}
-
-.logo {
-
-font-size:22px;
-font-weight:bold;
-letter-spacing:2px;
-
-}
-
-
-nav a {
-
-text-decoration:none;
-color:#333;
-margin-left:20px;
-
-}
-
-
-.hero {
-
-height:100vh;
-
-background:
-linear-gradient(
-rgba(0,0,0,.55),
-rgba(0,0,0,.55)
-),
-url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c");
-
-background-size:cover;
-background-position:center;
-
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-
-color:white;
-
-}
-
-
-.hero h1 {
-
-font-size:60px;
-max-width:900px;
-
-}
-
-
-.hero p {
-
-font-size:25px;
-
-}
-
-
-
-.button {
-
-background:#b38b45;
-color:white;
-padding:15px 35px;
-border-radius:5px;
-text-decoration:none;
-display:inline-block;
-
-}
-
-
-
-section {
-
-padding:80px 10%;
-
-}
-
-
-h2 {
-
-font-size:40px;
-text-align:center;
-
-}
-
-
-.grid {
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
-
-}
-
-
-.card {
-
-background:white;
-border-radius:10px;
-overflow:hidden;
-box-shadow:0 5px 20px #0001;
-
-}
-
-
-.card img {
-
-width:100%;
-height:220px;
-object-fit:cover;
-
-}
-
-
-.card div {
-
-padding:25px;
-
-}
-
-
-.card h3 {
-
-color:#b38b45;
-
-}
-
-
-.dark {
-
-background:#222;
-color:white;
-
-}
-
-
-footer {
-
-background:#111;
-color:#aaa;
-padding:40px 10%;
-
-}
-
-
-
-</style>
+<link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -200,11 +24,11 @@ padding:40px 10%;
 
 <nav>
 
-<div class="logo">
+<a href="index.html" class="logo">
 VANGUARDIA
-</div>
+</a>
 
-<div>
+<div class="nav-links">
 
 <a href="index.html">Home</a>
 <a href="#services">Services</a>
@@ -216,9 +40,11 @@ VANGUARDIA
 
 
 
-<div class="hero">
+<div class="hero" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80');">
 
-<div>
+<div class="hero-inner">
+
+<span class="hero-label">Panama · Construction · Property</span>
 
 <h1>
 Vanguardia Construction and Property Management
@@ -240,9 +66,15 @@ Request Consultation
 
 <section id="services">
 
+<div class="section-header">
+
+<span class="section-label">What We Do</span>
+
 <h2>
 Our Business Areas
 </h2>
+
+</div>
 
 
 <div class="grid">
@@ -250,7 +82,7 @@ Our Business Areas
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" alt="Luxury construction project">
 
 <div>
 
@@ -275,7 +107,7 @@ Learn more
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d">
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80" alt="Luxury interior renovation">
 
 <div>
 
@@ -300,7 +132,7 @@ Learn more
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa">
+<img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="Property management services">
 
 <div>
 
@@ -325,7 +157,7 @@ Learn more
 
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6">
+<img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80" alt="Panama property investment">
 
 <div>
 
@@ -355,9 +187,15 @@ Learn more
 
 <section class="dark">
 
+<div class="section-header">
+
+<span class="section-label" style="color: var(--color-gold-light);">Our Promise</span>
+
 <h2>
 Why Vanguardia
 </h2>
+
+</div>
 
 <p>
 We combine local Panama knowledge with international expectations for quality, communication and reliability.
@@ -374,6 +212,8 @@ Our goal is not simply to complete construction work. Our goal is to create prop
 
 <footer>
 
+<div class="footer-brand">
+
 <h3>
 Vanguardia Construction and Property Management
 </h3>
@@ -382,16 +222,24 @@ Vanguardia Construction and Property Management
 Panama
 </p>
 
-<p>
+</div>
+
+<p class="footer-disclaimer">
 Disclaimer: All project estimates, timelines and costs are preliminary and depend on scope, site conditions, permits, materials availability and client decisions. This website does not constitute a contractual offer.
 </p>
 
-<p>
+<p class="footer-copy">
 © 2026 Vanguardia
 </p>
 
 </footer>
 
+
+<script>
+window.addEventListener('scroll', function () {
+  document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 40);
+});
+</script>
 
 </body>
 

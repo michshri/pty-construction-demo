@@ -3,75 +3,14 @@
 
 <head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Luxury Renovations Panama | Vanguardia</title>
 
-<style>
+<meta name="description" content="Premium bathroom, kitchen and interior renovation services in Panama.">
 
-body{
-font-family:Arial;
-margin:0;
-background:#faf8f2;
-color:#333;
-line-height:1.7;
-}
-
-nav{
-padding:20px 10%;
-background:white;
-}
-
-nav a{
-margin-right:20px;
-text-decoration:none;
-color:#333;
-}
-
-
-.hero{
-
-height:60vh;
-
-background:
-linear-gradient(#0008,#0008),
-url("https://images.unsplash.com/photo-1600210492486-724fe5c67fb0");
-
-background-size:cover;
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-color:white;
-
-text-align:center;
-
-}
-
-h1{
-font-size:55px;
-}
-
-section{
-padding:70px 10%;
-}
-
-.box{
-
-background:white;
-padding:30px;
-margin:20px 0;
-border-radius:10px;
-
-}
-
-footer{
-background:#111;
-color:#aaa;
-padding:40px;
-}
-
-
-</style>
+<link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -81,26 +20,27 @@ padding:40px;
 
 <nav>
 
-<strong>VANGUARDIA</strong>
+<a href="index.html" class="logo">VANGUARDIA</a>
 
-<br><br>
-
-<a href="index.html">
-Home
-</a>
-
-<a href="contact.html">
-Contact
-</a>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="contact.html">Contact</a>
+</div>
 
 </nav>
 
 
-<div class="hero">
+<div class="hero hero-sub" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80');">
+
+<div class="hero-inner">
+
+<span class="hero-label">Renovation Services</span>
 
 <h1>
 Luxury Renovations
 </h1>
+
+</div>
 
 </div>
 
@@ -109,15 +49,27 @@ Luxury Renovations
 <section>
 
 
+<div class="section-header">
+
+<span class="section-label">Transformations</span>
+
 <h2>
 Transforming Existing Properties
 </h2>
 
+</div>
+
+
+<div class="page-intro">
 
 <p>
 A renovation is not only about replacing materials. It is about improving comfort, function and long-term value.
 </p>
 
+</div>
+
+
+<div class="content-cards">
 
 <div class="box">
 
@@ -158,6 +110,8 @@ From outdated apartments to luxury homes transformed for modern living.
 
 </div>
 
+</div>
+
 
 </section>
 
@@ -165,10 +119,24 @@ From outdated apartments to luxury homes transformed for modern living.
 
 <footer>
 
-Vanguardia Construction and Property Management
+<div class="footer-brand">
+
+<h3>Vanguardia Construction and Property Management</h3>
+
+<p>Panama</p>
+
+</div>
+
+<p class="footer-copy">© 2026 Vanguardia</p>
 
 </footer>
 
+
+<script>
+window.addEventListener('scroll', function () {
+  document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 40);
+});
+</script>
 
 </body>
 
