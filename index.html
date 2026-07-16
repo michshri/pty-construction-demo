@@ -26,11 +26,29 @@ Luxury Construction and Property Management in Panama | Vanguardia
 VANGUARDIA
 </a>
 
-<div class="nav-links">
+<button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+<span></span>
+<span></span>
+<span></span>
+</button>
 
-<a href="index.html">Home</a>
-<a href="#services">Services</a>
-<a href="contact.html">Contact</a>
+<div class="nav-links" id="primary-nav">
+
+<div class="nav-item dropdown">
+<button class="dropdown-toggle" type="button" aria-expanded="false">
+Services <span class="caret">▾</span>
+</button>
+<div class="dropdown-menu">
+<a href="construction.html">Construction</a>
+<a href="renovations.html">Renovations</a>
+<a href="property-management.html">Property Management</a>
+<a href="investment.html">Investment Support</a>
+</div>
+</div>
+
+<a href="#projects">Projects</a>
+<a href="#about">About</a>
+<a class="button nav-cta" href="contact.html">Contact</a>
 
 </div>
 
@@ -181,6 +199,72 @@ Learn more
 
 </section>
 
+<section id="projects" class="projects-section">
+
+<div class="section-header">
+
+<span class="section-label">Featured Work</span>
+
+<h2>
+Selected Projects & Property Stories
+</h2>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+<div>
+<h3>Oceanfront Villa Delivery</h3>
+<p>Full construction oversight for a premium Panama residence with remote owner coordination, schedule discipline and detailed finish management.</p>
+</div>
+</div>
+
+<div class="card">
+<div>
+<h3>Historic Home Renovation</h3>
+<p>Interior transformation focused on premium kitchen and bathroom upgrades, elegant finishes and long-term durability.</p>
+</div>
+</div>
+
+<div class="card">
+<div>
+<h3>Property Care Program</h3>
+<p>Ongoing property management support for owners abroad with maintenance planning, contractor coordination and proactive communication.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="about-section">
+
+<div class="section-header">
+
+<span class="section-label">About Vanguardia</span>
+
+<h2>
+A Local Partner for Owners Abroad
+</h2>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-card">
+<h3>Trusted on the ground</h3>
+<p>We provide dependable project oversight, thoughtful communication and practical solutions for homes, renovations and investments throughout Panama.</p>
+</div>
+
+<div class="about-card">
+<h3>Built around clarity</h3>
+<p>Every engagement is shaped by transparent planning, rigorous execution and a calm, professional approach that supports confident decisions from a distance.</p>
+</div>
+
+</div>
+
+</section>
 
 <section class="trust-section">
 
@@ -271,6 +355,66 @@ Disclaimer: All project estimates, timelines and costs are preliminary and depen
 </p>
 
 </footer>
+
+<script>
+const nav = document.querySelector('nav');
+const toggle = document.querySelector('.nav-toggle');
+const links = document.querySelector('.nav-links');
+const dropdownToggle = document.querySelector('.dropdown-toggle');
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+const closeMenu = () => {
+  links?.classList.remove('show');
+  toggle?.setAttribute('aria-expanded', 'false');
+  dropdownMenu?.classList.remove('show');
+  dropdownToggle?.setAttribute('aria-expanded', 'false');
+};
+
+window.addEventListener('scroll', function () {
+  nav.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+if (toggle && links) {
+  toggle.addEventListener('click', function (event) {
+    event.stopPropagation();
+    const open = links.classList.toggle('show');
+    toggle.setAttribute('aria-expanded', String(open));
+    if (!open) {
+      dropdownMenu?.classList.remove('show');
+      dropdownToggle?.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
+if (dropdownToggle && dropdownMenu) {
+  dropdownToggle.addEventListener('click', function (event) {
+    event.stopPropagation();
+    const open = dropdownMenu.classList.toggle('show');
+    dropdownToggle.setAttribute('aria-expanded', String(open));
+  });
+}
+
+links?.querySelectorAll('a').forEach(function (link) {
+  link.addEventListener('click', function () {
+    if (window.innerWidth <= 768) {
+      closeMenu();
+    }
+  });
+});
+
+document.addEventListener('click', function (event) {
+  if (!event.target.closest('.dropdown') && !event.target.closest('.nav-toggle')) {
+    dropdownMenu?.classList.remove('show');
+    dropdownToggle?.setAttribute('aria-expanded', 'false');
+  }
+});
+
+window.addEventListener('resize', function () {
+  if (window.innerWidth > 768) {
+    closeMenu();
+  }
+});
+</script>
 
 
 <script>
