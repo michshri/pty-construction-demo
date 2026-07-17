@@ -3,6 +3,8 @@ const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.nav-links');
 const dropdownToggle = document.querySelector('.dropdown-toggle');
 const dropdownMenu = document.querySelector('.dropdown-menu');
+const consentBanner = document.querySelector('.cookie-banner');
+const consentButton = document.querySelector('.cookie-banner button');
 
 const closeMenu = () => {
   links?.classList.remove('show');
@@ -10,6 +12,35 @@ const closeMenu = () => {
   dropdownMenu?.classList.remove('show');
   dropdownToggle?.setAttribute('aria-expanded', 'false');
 };
+
+const hasConsent = () => localStorage.getItem('analytics-consent') === 'granted';
+
+const loadAnalytics = () => {
+  if (window.__analyticsLoaded || !hasConsent()) return;
+  window.__analyticsLoaded = true;
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LJX72YS86V';
+  document.head.appendChild(script);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-LJX72YS86V');
+};
+
+if (consentBanner && consentButton) {
+  if (hasConsent()) {
+    consentBanner.remove();
+    loadAnalytics();
+  } else {
+    consentButton.addEventListener('click', function () {
+      localStorage.setItem('analytics-consent', 'granted');
+      consentBanner.remove();
+      loadAnalytics();
+    });
+  }
+}
 
 window.addEventListener('scroll', function () {
   nav?.classList.toggle('scrolled', window.scrollY > 40);
