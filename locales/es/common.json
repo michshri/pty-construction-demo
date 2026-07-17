@@ -1,0 +1,126 @@
+{
+  "siteName": "VANGUARDIA",
+  "language": "es",
+  "localeLabel": "Español",
+  "nav": {
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "bookConsultation": "Reserva una consulta privada",
+    "discussProject": "Habla sobre tu proyecto",
+    "arrangeConsultation": "Coordina una consulta",
+    "sendInquiry": "Enviar consulta"
+  },
+  "footer": {
+    "brand": "Vanguardia Construcción y Gestión de Propiedades",
+    "location": "Panamá · Consultas en inglés y español · Revisiones privadas de proyectos disponibles",
+    "disclaimer": "Aviso: Todas las estimaciones, plazos y costos del proyecto son preliminares y dependen del alcance, condiciones del sitio, permisos, disponibilidad de materiales y decisiones del cliente. Este sitio web no constituye una oferta contractual.",
+    "copyright": "© 2026 Vanguardia"
+  },
+  "contact": {
+    "headline": "Consulta privada",
+    "introTitle": "Inicia una conversación",
+    "introHeading": "Habla sobre tu proyecto en Panamá",
+    "introText": "Ya sea que estés planeando una nueva residencia, una renovación de lujo o el cuidado a largo plazo de una propiedad, podemos ayudarte a evaluar el mejor camino para tu inversión en Panamá.",
+    "bullets": [
+      "Consultas disponibles en inglés y español",
+      "Planificación remota de proyectos para propietarios en el extranjero",
+      "Conversaciones confidenciales para nuevos desarrollos y renovaciones"
+    ],
+    "formTitle": "Solicita información",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "projectType": "Tipo de proyecto",
+    "message": "Mensaje",
+    "placeholderName": "Tu nombre",
+    "placeholderEmail": "tu@email.com",
+    "placeholderProject": "Villa, renovación, gestión, apoyo de inversión",
+    "placeholderMessage": "Cuéntanos sobre tus objetivos inmobiliarios en Panamá"
+  },
+  "home": {
+    "heroLabel": "Panamá · Construcción · Propiedades",
+    "heroTitle": "Construcción de lujo y cuidado de propiedades en Panamá para propietarios en el extranjero",
+    "heroText": "Desde el concepto hasta la entrega, coordinamos cada detalle con precisión para que tu inversión permanezca protegida, bellamente construida y cuidadosamente gestionada.",
+    "servicesLabel": "Qué hacemos",
+    "servicesTitle": "Nuestras áreas de negocio",
+    "featuredLabel": "Trabajo destacado",
+    "featuredTitle": "Proyectos seleccionados y relatos de propiedades",
+    "aboutLabel": "Sobre Vanguardia",
+    "aboutTitle": "Un aliado local para propietarios en el extranjero",
+    "trustLabel": "Para propietarios en el extranjero",
+    "trustTitle": "Confianza a distancia",
+    "promiseLabel": "Nuestra promesa",
+    "promiseTitle": "Por qué Vanguardia",
+    "promiseText": "Combinamos el conocimiento local de Panamá con las expectativas internacionales en calidad, comunicación y confiabilidad.",
+    "promiseBody": "Para propietarios que construyen o renuevan desde el extranjero, brindamos la claridad y la consistencia necesarias para tomar decisiones seguras en Panamá. Nuestra meta no es simplemente completar trabajos de construcción. Nuestra meta es crear propiedades de las que los propietarios estén orgullosos y los inversionistas confíen en poseer."
+  },
+  "pages": {
+    "construction": {
+      "title": "Servicios de construcción en Panamá | Vanguardia",
+      "description": "Gestión de construcción premium y servicios de construcción de villas en Panamá para familias locales, dueños en el extranjero e inversionistas.",
+      "heroLabel": "Servicios de construcción",
+      "heroTitle": "Gestión de construcción en Panamá",
+      "sectionLabel": "Nuestro enfoque",
+      "sectionTitle": "Construyendo sin sorpresas",
+      "introP1": "La construcción en Panamá requiere experiencia, relaciones locales y supervisión cuidadosa. Vanguardia gestiona proyectos desde la planificación hasta la entrega final para familias locales, residentes que regresan, compradores internacionales e inversionistas que desean un socio confiable en el terreno.",
+      "introP2": "Ayudamos a los clientes a navegar permisos, cronogramas, selección de materiales, coordinación de contratistas y control de calidad para que cada hito se gestione con claridad y cuidado, ya sea una residencia privada, una casa de vacaciones o una inversión a largo plazo.",
+      "cards": [
+        {"title": "Villas de lujo", "body": "Casas privadas diseñadas y construidas con atención a la arquitectura, materiales y detalles de acabado, adaptadas tanto al uso residencial como al valor a largo plazo."},
+        {"title": "Gestión completa de proyectos", "body": "Coordinación de artesanos, proveedores, arquitectos, permisos y cronogramas, respaldada por supervisión proactiva desde la planificación hasta la entrega."},
+        {"title": "Control de calidad", "body": "Inspecciones regulares y revisiones de hitos garantizan que la mano de obra, acabados y ejecución cumplan con las expectativas de principio a fin."}
+      ]
+    },
+    "renovations": {
+      "title": "Renovaciones de lujo en Panamá | Vanguardia",
+      "description": "Servicios premium de renovación de baños, cocinas e interiores en Panamá para propietarios locales, dueños en el extranjero e inversionistas.",
+      "heroLabel": "Servicios de renovación",
+      "heroTitle": "Renovaciones de lujo",
+      "sectionLabel": "Transformaciones",
+      "sectionTitle": "Transformando propiedades existentes",
+      "introP1": "Una renovación no solo consiste en reemplazar materiales. Se trata de mejorar la comodidad, función y valor a largo plazo de hogares, alquileres, propiedades de vacaciones y activos de inversión.",
+      "introP2": "Ya sea que estés actualizando una residencia para uso diario o preparando una propiedad para venta, alquiler o uso estacional, nuestro equipo aporta atención al detalle, planificación práctica y acabados refinados que respaldan tanto el estilo de vida como el rendimiento.",
+      "cards": [
+        {"title": "Baños", "body": "Acabados premium, impermeabilización, iluminación y detalle que elevan los espacios cotidianos y crean el nivel de calidad esperado en hogares de lujo modernos."},
+        {"title": "Cocinas e interiores", "body": "Diseños modernos, soluciones personalizadas y materiales cuidadosamente seleccionados para mejorar la practicidad, impacto visual y valor duradero."},
+        {"title": "Renovaciones completas", "body": "Desde apartamentos desactualizados hasta hogares de lujo transformados para la vida moderna, ideales para propietarios que buscan un nuevo capítulo para su propiedad."}
+      ]
+    },
+    "propertyManagement": {
+      "title": "Gestión de propiedades en Panamá | Vanguardia",
+      "description": "Servicios de gestión y mantenimiento de propiedades en Panamá para propietarios locales, dueños en el extranjero e inversionistas.",
+      "heroLabel": "Cuidado de propiedades",
+      "heroTitle": "Gestión de propiedades en Panamá",
+      "sectionLabel": "Tu inversión",
+      "sectionTitle": "Protegiendo tu inversión inmobiliaria",
+      "introP1": "Muchos propietarios locales y dueños internacionales necesitan un aliado de confianza en el terreno. Vanguardia ofrece servicios confiables de cuidado y mejora de propiedades que mantienen las residencias bien mantenidas, receptivas y listas para uso diario o ocupación estacional.",
+      "introP2": "Apoyamos a clientes que pasan parte del año fuera de Panamá, familias con agendas ocupadas e inversionistas que desean supervisión confiable sin tener que gestionar cada problema personalmente.",
+      "cards": [
+        {"title": "Mantenimiento", "body": "Mantenimiento preventivo, reparaciones rutinarias e inspecciones programadas que ayudan a preservar el valor y reducir sorpresas a largo plazo."},
+        {"title": "Coordinación de renovaciones", "body": "Gestión de mejoras y actualizaciones con coordinación clara para que los propietarios puedan mantenerse informados sin necesidad de estar físicamente presentes."},
+        {"title": "Apoyo al propietario", "body": "Un punto de contacto local para preguntas, emergencias y mejoras, con comunicación receptiva adaptada a clientes locales y en el extranjero."}
+      ]
+    },
+    "investment": {
+      "title": "Apoyo a inversiones inmobiliarias en Panamá | Vanguardia",
+      "description": "Apoyo de inversión, evaluaciones y servicios de mejora de valor en Panamá para compradores locales, dueños en el extranjero e inversionistas.",
+      "heroLabel": "Apoyo de inversión",
+      "heroTitle": "Apoyo a inversiones inmobiliarias",
+      "sectionLabel": "Creación de valor",
+      "sectionTitle": "Haciendo que las propiedades en Panamá rindan mejor",
+      "introP1": "Vanguardia ayuda a inversionistas y propietarios a mejorar, mantener y aumentar el valor de sus propiedades en Panamá mediante una planificación cuidadosa y ejecución práctica.",
+      "introP2": "Para compradores que realizan una primera adquisición, propietarios que preparan una casa existente para vender o alquilar, o familias que buscan valor a largo plazo, nos enfocamos en mejoras que fortalecen tanto la calidad de vida como el rendimiento del activo.",
+      "cards": [
+        {"title": "Antes de comprar", "body": "Evaluaciones de propiedades y planificación de renovaciones que aclaran prioridades, costos probables y las formas más efectivas de mejorar el valor antes de comprometerse."},
+        {"title": "Después de comprar", "body": "Mejoras, amueblado, mantenimiento y actualizaciones diseñadas para apoyar comodidad, ocupación, potencial de rentabilidad y durabilidad a largo plazo."},
+        {"title": "Valor a largo plazo", "body": "Mejoras estratégicas diseñadas en torno a metas de estilo de vida, potencial de reventa y rendimiento de la inversión, con especial atención a la calidad duradera."}
+      ]
+    },
+    "home": {
+      "title": "Construcción de lujo y gestión de propiedades en Panamá | Vanguardia",
+      "description": "Servicios de construcción, renovación y gestión de propiedades de lujo en Panamá para propietarios e inversionistas exigentes en el extranjero."
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "siteName": "VANGUARDIA",
+  "language": "en",
+  "localeLabel": "English",
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "bookConsultation": "Book a Private Consultation",
+    "discussProject": "Discuss Your Project",
+    "arrangeConsultation": "Arrange a consultation",
+    "sendInquiry": "Send Inquiry"
+  },
+  "footer": {
+    "brand": "Vanguardia Construction and Property Management",
+    "location": "Panama · English & Spanish consultations · Private project reviews available",
+    "disclaimer": "Disclaimer: All project estimates, timelines and costs are preliminary and depend on scope, site conditions, permits, materials availability and client decisions. This website does not constitute a contractual offer.",
+    "copyright": "© 2026 Vanguardia"
+  },
+  "contact": {
+    "headline": "Private Consultation",
+    "introTitle": "Start a Conversation",
+    "introHeading": "Discuss Your Panama Project",
+    "introText": "Whether you are planning a new residence, a luxury renovation, or long-term property care, we can help you evaluate the right path for your Panama investment.",
+    "bullets": [
+      "English and Spanish consultations available",
+      "Remote project planning for owners abroad",
+      "Confidential discussions for new developments and renovations"
+    ],
+    "formTitle": "Request details",
+    "name": "Name",
+    "email": "Email",
+    "projectType": "Project Type",
+    "message": "Message",
+    "placeholderName": "Your name",
+    "placeholderEmail": "you@email.com",
+    "placeholderProject": "Villa, renovation, management, investment support",
+    "placeholderMessage": "Tell us about your property goals in Panama"
+  },
+  "home": {
+    "heroLabel": "Panama · Construction · Property",
+    "heroTitle": "Luxury Construction and Property Care in Panama for Owners Abroad",
+    "heroText": "From concept to completion, we coordinate every detail with precision so your investment stays protected, beautifully built, and thoughtfully managed.",
+    "servicesLabel": "What We Do",
+    "servicesTitle": "Our Business Areas",
+    "featuredLabel": "Featured Work",
+    "featuredTitle": "Selected Projects & Property Stories",
+    "aboutLabel": "About Vanguardia",
+    "aboutTitle": "A Local Partner for Owners Abroad",
+    "trustLabel": "For Overseas Owners",
+    "trustTitle": "Confidence from a Distance",
+    "promiseLabel": "Our Promise",
+    "promiseTitle": "Why Vanguardia",
+    "promiseText": "We combine local Panama knowledge with international expectations for quality, communication and reliability.",
+    "promiseBody": "For owners building or renovating from abroad, we provide the clarity and consistency needed to make confident decisions in Panama. Our goal is not simply to complete construction work. Our goal is to create properties that owners are proud to live in and investors are confident to own."
+  },
+  "pages": {
+    "construction": {
+      "title": "Construction Services Panama | Vanguardia",
+      "description": "Premium construction management and villa construction services in Panama for local families, overseas owners and investors.",
+      "heroLabel": "Construction Services",
+      "heroTitle": "Construction Management Panama",
+      "sectionLabel": "Our Approach",
+      "sectionTitle": "Building Without Surprises",
+      "introP1": "Construction in Panama requires experience, local relationships and careful supervision. Vanguardia manages projects from planning through final delivery for local families, returning residents, international buyers and investors who want a dependable partner on the ground.",
+      "introP2": "We help clients navigate permitting, scheduling, materials selection, contractor coordination and quality control so every milestone is managed with clarity and care, whether the property is a private residence, a vacation home or a long-term investment.",
+      "cards": [
+        {"title": "Luxury Villas", "body": "Private homes designed and built with attention to architecture, materials and finishing details, tailored to both residential living and long-term value."},
+        {"title": "Complete Project Management", "body": "Coordination of craftsmen, suppliers, architects, permits and schedules, backed by proactive oversight from planning through handover."},
+        {"title": "Quality Control", "body": "Regular inspections and milestone reviews ensure that workmanship, finishes and execution meet expectations from start to finish."}
+      ]
+    },
+    "renovations": {
+      "title": "Luxury Renovations Panama | Vanguardia",
+      "description": "Premium bathroom, kitchen and interior renovation services in Panama for local homeowners, overseas owners and investors.",
+      "heroLabel": "Renovation Services",
+      "heroTitle": "Luxury Renovations",
+      "sectionLabel": "Transformations",
+      "sectionTitle": "Transforming Existing Properties",
+      "introP1": "A renovation is not only about replacing materials. It is about improving comfort, function and long-term value for homes, rentals, vacation properties and investment assets.",
+      "introP2": "Whether you are updating a residence for daily living or preparing a property for sale, rental or seasonal use, our team brings attention to detail, practical planning and refined finishes that support both lifestyle and return.",
+      "cards": [
+        {"title": "Bathrooms", "body": "Premium finishes, waterproofing, lighting and detailing that elevate everyday spaces and create the level of quality expected in modern luxury homes."},
+        {"title": "Kitchens & Interiors", "body": "Modern layouts, custom solutions and carefully selected materials designed to improve practicality, visual impact and lasting value."},
+        {"title": "Complete Makeovers", "body": "From outdated apartments to luxury homes transformed for modern living, ideal for owners seeking a fresh chapter for their property."}
+      ]
+    },
+    "propertyManagement": {
+      "title": "Property Management Panama | Vanguardia",
+      "description": "Trusted property management and maintenance services in Panama for local homeowners, overseas owners and investors.",
+      "heroLabel": "Property Care",
+      "heroTitle": "Property Management Panama",
+      "sectionLabel": "Your Investment",
+      "sectionTitle": "Protecting Your Property Investment",
+      "introP1": "Many local homeowners and international owners need a trusted partner on the ground. Vanguardia provides reliable property care and improvement services that keep residences well maintained, responsive and ready for everyday use or seasonal occupancy.",
+      "introP2": "We support clients who spend part of the year outside Panama, families with busy schedules, and investors who want dependable oversight without having to manage every issue personally.",
+      "cards": [
+        {"title": "Maintenance", "body": "Preventive maintenance, routine repairs and scheduled inspections that help preserve value and reduce long-term surprises."},
+        {"title": "Renovation Coordination", "body": "Managing upgrades and improvements with clear coordination so owners can stay informed without needing to be physically present."},
+        {"title": "Owner Support", "body": "A local point of contact for questions, emergencies and improvements, with responsive communication tailored to both local and overseas clients."}
+      ]
+    },
+    "investment": {
+      "title": "Panama Property Investment Support | Vanguardia",
+      "description": "Property investment support, assessments and value improvement services in Panama for local buyers, overseas owners and investors.",
+      "heroLabel": "Investment Support",
+      "heroTitle": "Property Investment Support",
+      "sectionLabel": "Value Creation",
+      "sectionTitle": "Making Panama Properties Perform Better",
+      "introP1": "Vanguardia helps investors and homeowners improve, maintain and increase the value of their Panama properties through thoughtful planning and practical execution.",
+      "introP2": "For buyers making a first acquisition, owners preparing an existing home for sale or rental, or families seeking long-term value, we focus on improvements that strengthen both lifestyle quality and asset performance.",
+      "cards": [
+        {"title": "Before Purchase", "body": "Property assessments and renovation planning that clarify priorities, likely costs and the most effective ways to improve value before you commit."},
+        {"title": "After Purchase", "body": "Improvements, furnishing, maintenance and upgrades designed to support comfort, occupancy, return potential and long-term durability."},
+        {"title": "Long-Term Value", "body": "Strategic improvements designed around lifestyle goals, resale potential and investment performance, with careful attention to enduring quality."}
+      ]
+    },
+    "home": {
+      "title": "Luxury Construction and Property Management in Panama | Vanguardia",
+      "description": "Luxury construction, renovation and property management services in Panama for discerning owners and investors abroad."
+    }
+  }
+}

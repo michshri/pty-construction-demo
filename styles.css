@@ -193,6 +193,31 @@ nav .nav-cta {
   margin-left: 0.25rem;
 }
 
+nav .lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--color-border);
+}
+
+nav .lang-switch a {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-text-muted);
+  transition: color var(--transition);
+}
+
+nav .lang-switch a.active,
+nav .lang-switch a:hover {
+  color: var(--color-gold-dark);
+}
+
 nav .nav-toggle {
   display: none;
   flex-direction: column;
