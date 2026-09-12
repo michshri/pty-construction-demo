@@ -1,0 +1,50 @@
+[
+  {
+    "id": "placeholder-residence",
+    "active": true,
+    "order": 1,
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    "name": { "en": "Private Residence Renewal", "es": "Renovación de residencia privada", "fr": "Rénovation de résidence privée" },
+    "location": { "en": "Panama City", "es": "Ciudad de Panamá", "fr": "Panama City" },
+    "segment": { "en": "Residential", "es": "Residencial", "fr": "Résidentiel" },
+    "service": { "en": "Construction & Renovation", "es": "Construcción y Renovación", "fr": "Construction & Rénovation" },
+    "description": {
+      "en": "Placeholder project detail for a residential renovation requiring coordination, practical planning and finish quality control.",
+      "es": "Detalle provisional de un proyecto residencial que requiere coordinación, planificación práctica y control de calidad en acabados.",
+      "fr": "Détail d’exemple pour un projet résidentiel nécessitant coordination, planification pratique et contrôle qualité des finitions."
+    },
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-commercial",
+    "active": true,
+    "order": 2,
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    "name": { "en": "Commercial Building Upgrade", "es": "Actualización de edificio comercial", "fr": "Mise à niveau d’immeuble commercial" },
+    "location": { "en": "David, Chiriquí", "es": "David, Chiriquí", "fr": "David, Chiriquí" },
+    "segment": { "en": "Commercial & Industrial", "es": "Comercial e Industrial", "fr": "Commercial & Industriel" },
+    "service": { "en": "Maintenance & Repairs", "es": "Mantenimiento y Reparaciones", "fr": "Maintenance & Réparations" },
+    "description": {
+      "en": "Placeholder content for a commercial property improvement program focused on reliable upkeep and operational continuity.",
+      "es": "Contenido provisional para un programa de mejora de propiedad comercial centrado en mantenimiento fiable y continuidad operativa.",
+      "fr": "Contenu d’exemple pour un programme d’amélioration d’un bien commercial axé sur l’entretien fiable et la continuité opérationnelle."
+    },
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-condo",
+    "active": true,
+    "order": 3,
+    "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80",
+    "name": { "en": "PH Maintenance Coordination", "es": "Coordinación de mantenimiento PH", "fr": "Coordination de maintenance PH" },
+    "location": { "en": "Panama Oeste", "es": "Panamá Oeste", "fr": "Panama Ouest" },
+    "segment": { "en": "PH & Condominiums", "es": "PH y Condominios", "fr": "PH & Condominiums" },
+    "service": { "en": "Property Management", "es": "Gestión de Propiedades", "fr": "Gestion Immobilière" },
+    "description": {
+      "en": "Placeholder content for a condominium or PH management project requiring organized maintenance, reporting and contractor oversight.",
+      "es": "Contenido provisional para un proyecto de gestión de condominio o PH que requiere mantenimiento organizado, reportes y supervisión de contratistas.",
+      "fr": "Contenu d’exemple pour un projet de gestion de condominium ou PH nécessitant maintenance organisée, reporting et supervision des prestataires."
+    },
+    "placeholder": true
+  }
+]

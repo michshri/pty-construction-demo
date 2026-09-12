@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "en": {
+      "title": "Vanguardia Construction & Property Management | Panama",
+      "description": "Reliable construction, maintenance and property management services for residential, commercial, industrial and PH properties in Panama.",
+      "canonical": "/",
+      "ogTitle": "Vanguardia Construction & Property Management",
+      "ogDescription": "Construction, maintenance and property management for residential, commercial, industrial and PH properties in Panama."
+    },
+    "es": {
+      "title": "Vanguardia Construcción y Gestión de Propiedades | Panamá",
+      "description": "Servicios confiables de construcción, mantenimiento y gestión de propiedades para viviendas, comercio, industria y PH en Panamá.",
+      "canonical": "/es/",
+      "ogTitle": "Vanguardia Construcción y Gestión de Propiedades",
+      "ogDescription": "Construcción, mantenimiento y gestión de propiedades para viviendas, comercio, industria y PH en Panamá."
+    },
+    "fr": {
+      "title": "Vanguardia Construction & Gestion Immobilière | Panama",
+      "description": "Services fiables de construction, maintenance et gestion immobilière pour propriétés résidentielles, commerciales, industrielles et PH au Panama.",
+      "canonical": "/fr/",
+      "ogTitle": "Vanguardia Construction & Gestion Immobilière",
+      "ogDescription": "Construction, maintenance et gestion immobilière pour propriétés résidentielles, commerciales, industrielles et PH au Panama."
+    }
+  },
+  "hero": {
+    "eyebrow": { "en": "VANGUARDIA", "es": "VANGUARDIA", "fr": "VANGUARDIA" },
+    "headline": {
+      "en": "Construction, Maintenance & Property Management — Done Properly.",
+      "es": "Construcción, mantenimiento y gestión de propiedades — hechas bien.",
+      "fr": "Construction, maintenance & gestion immobilière — bien fait."
+    },
+    "supporting": {
+      "en": "Reliable construction and property services for residential, commercial, industrial and PH properties in Panama.",
+      "es": "Servicios confiables de construcción y propiedades para viviendas, comercios, industria y PH en Panamá.",
+      "fr": "Services fiables de construction et gestion immobilière pour biens résidentiels, commerciaux, industriels et PH au Panama."
+    },
+    "primaryCta": { "en": "Request a Consultation", "es": "Solicitar una Consulta", "fr": "Demander une Consultation" },
+    "secondaryCta": { "en": "Explore Our Services", "es": "Explorar Servicios", "fr": "Explorer nos services" }
+  },
+  "trust": {
+    "statement": {
+      "en": "One reliable partner for construction, maintenance and property management.",
+      "es": "Un aliado confiable para la construcción, el mantenimiento y la gestión de propiedades.",
+      "fr": "Un partenaire fiable pour la construction, la maintenance et la gestion immobilière."
+    },
+    "support": {
+      "en": "From individual properties to commercial buildings and PH communities, Vanguardia coordinates the people, work and practical details needed to keep projects and properties moving.",
+      "es": "Desde propiedades individuales hasta edificios comerciales y comunidades PH, Vanguardia coordina a la gente, el trabajo y los detalles prácticos para mantener proyectos y propiedades en movimiento.",
+      "fr": "Des biens individuels aux immeubles commerciaux et aux communautés PH, Vanguardia coordonne les personnes, les travaux et les détails pratiques nécessaires pour faire avancer les projets et les propriétés."
+    }
+  },
+  "services": {
+    "heading": { "en": "What We Do", "es": "Qué Hacemos", "fr": "Ce Que Nous Faisons" },
+    "support": {
+      "en": "From construction and renovation to ongoing maintenance and property management, Vanguardia provides practical building and property services under one roof.",
+      "es": "Desde la construcción y la renovación hasta el mantenimiento continuo y la gestión de propiedades, Vanguardia ofrece servicios prácticos de construcción y bienes bajo un mismo techo.",
+      "fr": "De la construction et la rénovation à l’entretien continu et la gestion immobilière, Vanguardia propose des services pratiques de bâtiment et de gestion sous un même toit."
+    }
+  },
+  "segments": {
+    "heading": { "en": "Who We Serve", "es": "A Quiénes Atendemos", "fr": "À Qui Nous Servons" },
+    "support": {
+      "en": "Different properties have different demands. Our services are structured around the needs of the people responsible for them.",
+      "es": "Cada propiedad tiene demandas distintas. Nuestros servicios están estructurados según las necesidades de quienes las administran.",
+      "fr": "Chaque bien a des besoins différents. Nos services sont organisés selon les besoins des personnes qui en sont responsables."
+    }
+  },
+  "why": {
+    "heading": { "en": "Why Vanguardia", "es": "Por Qué Vanguardia", "fr": "Pourquoi Vanguardia" },
+    "points": [
+      {
+        "id": "one-point-of-responsibility",
+        "title": { "en": "One Point of Responsibility", "es": "Un solo punto de responsabilidad", "fr": "Un seul point de responsabilité" },
+        "copy": {
+          "en": "Construction, maintenance and property services coordinated through one company.",
+          "es": "Servicios de construcción, mantenimiento y propiedades coordinados en una sola empresa.",
+          "fr": "Construction, maintenance et gestion immobilière coordonnés par une seule entreprise."
+        }
+      },
+      {
+        "id": "practical-project-control",
+        "title": { "en": "Practical Project Control", "es": "Control práctico del proyecto", "fr": "Contrôle pratique du projet" },
+        "copy": {
+          "en": "Clear scope, communication, coordination and follow-through.",
+          "es": "Alcance claro, comunicación, coordinación y seguimiento constante.",
+          "fr": "Périmètre clair, communication, coordination et suivi rigoureux."
+        }
+      },
+      {
+        "id": "reliable-local-execution",
+        "title": { "en": "Reliable Local Execution", "es": "Ejecución local confiable", "fr": "Exécution locale fiable" },
+        "copy": {
+          "en": "A local team that understands the realities of working with properties in Panama.",
+          "es": "Un equipo local que entiende la realidad de trabajar con propiedades en Panamá.",
+          "fr": "Une équipe locale qui comprend les réalités de la gestion immobilière au Panama."
+        }
+      },
+      {
+        "id": "built-for-long-term-relationships",
+        "title": { "en": "Built for Long-Term Relationships", "es": "Pensado para relaciones a largo plazo", "fr": "Conçu pour des relations durables" },
+        "copy": {
+          "en": "The objective is not simply to complete a job, but to become a dependable property partner.",
+          "es": "El objetivo no es solo completar una obra, sino convertirse en un aliado confiable para la propiedad.",
+          "fr": "L’objectif n’est pas seulement d’achever un travail, mais de devenir un partenaire immobilier fiable."
+        }
+      }
+    ]
+  },
+  "matrix": {
+    "heading": { "en": "One Company. Multiple Property Needs.", "es": "Una empresa. Múltiples necesidades de propiedad.", "fr": "Une entreprise. De nombreux besoins immobiliers." },
+    "columns": [
+      { "en": "Residential", "es": "Residencial", "fr": "Résidentiel" },
+      { "en": "Commercial & Industrial", "es": "Comercial e Industrial", "fr": "Commercial & Industriel" },
+      { "en": "PH & Condominiums", "es": "PH y Condominios", "fr": "PH & Condominiums" }
+    ],
+    "rows": [
+      { "id": "construction-renovation", "en": "Construction & Renovation", "es": "Construcción y Renovación", "fr": "Construction & Rénovation" },
+      { "id": "maintenance-repairs", "en": "Maintenance & Repairs", "es": "Mantenimiento y Reparaciones", "fr": "Maintenance & Réparations" },
+      { "id": "property-management", "en": "Property Management", "es": "Gestión de Propiedades", "fr": "Gestion Immobilière" },
+      { "id": "project-management", "en": "Project Management", "es": "Gestión de Proyectos", "fr": "Gestion de Projets" },
+      { "id": "specialized-building-works", "en": "Specialized Building Works", "es": "Obras Especializadas", "fr": "Travaux Spécialisés" }
+    ]
+  },
+  "projects": {
+    "heading": { "en": "Work That Speaks for Itself", "es": "Un trabajo que habla por sí solo", "fr": "Un travail qui parle de lui-même" },
+    "placeholder": { "en": "Placeholder project content ready to replace with real Vanguardia work.", "es": "Contenido de proyecto provisional listo para reemplazarse por trabajos reales de Vanguardia.", "fr": "Contenu de projet provisoire prêt à être remplacé par de vrais travaux Vanguardia." }
+  },
+  "process": {
+    "heading": { "en": "How We Work", "es": "Cómo Trabajamos", "fr": "Comment Nous Travaillons" },
+    "steps": [
+      {
+        "step": "01",
+        "title": { "en": "Assess", "es": "Evaluar", "fr": "Évaluer" },
+        "copy": { "en": "Understand the property, problem or project.", "es": "Comprender la propiedad, el problema o el proyecto.", "fr": "Comprendre le bien, le problème ou le projet." }
+      },
+      {
+        "step": "02",
+        "title": { "en": "Plan", "es": "Planificar", "fr": "Planifier" },
+        "copy": { "en": "Define scope, priorities, budget and execution.", "es": "Definir alcance, prioridades, presupuesto y ejecución.", "fr": "Définir le périmètre, les priorités, le budget et l’exécution." }
+      },
+      {
+        "step": "03",
+        "title": { "en": "Execute", "es": "Ejecutar", "fr": "Exécuter" },
+        "copy": { "en": "Coordinate the work and keep the project moving.", "es": "Coordinar el trabajo y mantener el proyecto en movimiento.", "fr": "Coordonner les travaux et faire avancer le projet." }
+      },
+      {
+        "step": "04",
+        "title": { "en": "Complete", "es": "Finalizar", "fr": "Terminer" },
+        "copy": { "en": "Review the work, resolve outstanding items and hand over properly.", "es": "Revisar el trabajo, resolver pendientes y entregar correctamente.", "fr": "Vérifier le travail, régler les derniers points et livrer correctement." }
+      }
+    ]
+  },
+  "cta": {
+    "heading": { "en": "Have a Property or Project That Needs Attention?", "es": "¿Tiene una propiedad o proyecto que necesita atención?", "fr": "Avez-vous un bien ou un projet qui nécessite une attention particulière ?" },
+    "support": {
+      "en": "Tell us what you need. We will assess the situation and come back with a practical way forward.",
+      "es": "Cuéntenos qué necesita. Evaluaremos la situación y le responderemos con una forma práctica de avanzar.",
+      "fr": "Dites-nous ce dont vous avez besoin. Nous évaluerons la situation et reviendrons avec une solution concrète."
+    },
+    "primary": { "en": "Request a Consultation", "es": "Solicitar una Consulta", "fr": "Demander une Consultation" },
+    "secondary": { "en": "Contact Vanguardia", "es": "Contactar a Vanguardia", "fr": "Contacter Vanguardia" }
+  },
+  "footer": {
+    "company": {
+      "en": "Vanguardia Construction and Property Management",
+      "es": "Vanguardia Construcción y Gestión de Propiedades",
+      "fr": "Vanguardia Construction et Gestion Immobilière"
+    },
+    "location": {
+      "en": "Panama",
+      "es": "Panamá",
+      "fr": "Panama"
+    }
+  }
+}

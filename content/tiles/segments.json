@@ -1,0 +1,59 @@
+[
+  {
+    "id": "residential",
+    "active": true,
+    "order": 1,
+    "link": "#who-we-serve",
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=900&q=80",
+    "en": {
+      "title": "Residential",
+      "description": "Construction, renovation, maintenance and property services for homeowners and private property owners."
+    },
+    "es": {
+      "title": "Residencial",
+      "description": "Servicios de construcción, renovación, mantenimiento y propiedades para propietarios y dueños de viviendas."
+    },
+    "fr": {
+      "title": "Résidentiel",
+      "description": "Services de construction, rénovation, maintenance et gestion pour propriétaires de maisons et biens privés."
+    }
+  },
+  {
+    "id": "commercial-industrial",
+    "active": true,
+    "order": 2,
+    "link": "#who-we-serve",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
+    "en": {
+      "title": "Commercial & Industrial",
+      "description": "Construction, maintenance, renovation and property services that help businesses keep their properties operating properly."
+    },
+    "es": {
+      "title": "Comercial e Industrial",
+      "description": "Servicios de construcción, mantenimiento, renovación y propiedades para apoyar el correcto funcionamiento de negocios."
+    },
+    "fr": {
+      "title": "Commercial & Industriel",
+      "description": "Services de construction, maintenance, rénovation et gestion pour soutenir le bon fonctionnement des biens commerciaux."
+    }
+  },
+  {
+    "id": "ph-condominiums",
+    "active": true,
+    "order": 3,
+    "link": "#who-we-serve",
+    "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=900&q=80",
+    "en": {
+      "title": "PH & Condominiums",
+      "description": "Building maintenance, improvements, repairs and project coordination for PH administrations, boards and condominium communities."
+    },
+    "es": {
+      "title": "PH y Condominios",
+      "description": "Mantenimiento de edificios, mejoras, reparaciones y coordinación de proyectos para administraciones y comunidades."
+    },
+    "fr": {
+      "title": "PH & Condominiums",
+      "description": "Maintenance, améliorations, réparations et coordination de projets pour administrations, conseils et communautés de copropriété."
+    }
+  }
+]

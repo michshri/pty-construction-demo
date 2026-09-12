@@ -1,0 +1,102 @@
+[
+  {
+    "id": "construction-renovation",
+    "active": true,
+    "order": 1,
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80",
+    "link": "#services",
+    "cta": { "en": "Learn More", "es": "Más información", "fr": "En savoir plus" },
+    "en": {
+      "title": "Construction & Renovation",
+      "description": "Planning, delivery and quality-led renovation work for homes, buildings and properties that need careful execution."
+    },
+    "es": {
+      "title": "Construcción y Renovación",
+      "description": "Planificación, ejecución y trabajos de renovación con atención a la calidad para viviendas, edificios y propiedades."
+    },
+    "fr": {
+      "title": "Construction & Rénovation",
+      "description": "Planification, exécution et travaux de rénovation orientés qualité pour maisons, bâtiments et propriétés."
+    }
+  },
+  {
+    "id": "maintenance-repairs",
+    "active": true,
+    "order": 2,
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80",
+    "link": "#services",
+    "cta": { "en": "Learn More", "es": "Más información", "fr": "En savoir plus" },
+    "en": {
+      "title": "Maintenance & Repairs",
+      "description": "Routine upkeep, repairs and practical improvements that keep properties operating smoothly over time."
+    },
+    "es": {
+      "title": "Mantenimiento y Reparaciones",
+      "description": "Mantenimiento rutinario, reparaciones y mejoras prácticas para mantener las propiedades en buen funcionamiento."
+    },
+    "fr": {
+      "title": "Maintenance & Réparations",
+      "description": "Entretien régulier, réparations et améliorations pratiques pour garder les biens en bon état."
+    }
+  },
+  {
+    "id": "property-management",
+    "active": true,
+    "order": 3,
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80",
+    "link": "#services",
+    "cta": { "en": "Learn More", "es": "Más información", "fr": "En savoir plus" },
+    "en": {
+      "title": "Property Management",
+      "description": "Ongoing coordination for maintenance, inspections and day-to-day property care for owners and communities."
+    },
+    "es": {
+      "title": "Gestión de Propiedades",
+      "description": "Coordinación continua para mantenimiento, inspecciones y cuidado práctico de propiedades para propietarios y comunidades."
+    },
+    "fr": {
+      "title": "Gestion Immobilière",
+      "description": "Coordination continue de l’entretien, des inspections et de la gestion quotidienne des biens."
+    }
+  },
+  {
+    "id": "project-management",
+    "active": true,
+    "order": 4,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+    "link": "#services",
+    "cta": { "en": "Learn More", "es": "Más información", "fr": "En savoir plus" },
+    "en": {
+      "title": "Project Management",
+      "description": "Clear scope, scheduling and communication to keep projects moving with realistic accountability."
+    },
+    "es": {
+      "title": "Gestión de Proyectos",
+      "description": "Alcance claro, programación y comunicación para mantener los proyectos en movimiento con responsabilidad realista."
+    },
+    "fr": {
+      "title": "Gestion de Projets",
+      "description": "Portée claire, planning et communication pour faire avancer les projets avec suivi responsable."
+    }
+  },
+  {
+    "id": "specialized-building-works",
+    "active": true,
+    "order": 5,
+    "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80",
+    "link": "#services",
+    "cta": { "en": "Learn More", "es": "Más información", "fr": "En savoir plus" },
+    "en": {
+      "title": "Specialized Building Works",
+      "description": "Targeted technical work for structural, building-performance and property improvement needs."
+    },
+    "es": {
+      "title": "Obras Especializadas",
+      "description": "Trabajos técnicos específicos para necesidades estructurales, de rendimiento y mejora de propiedades."
+    },
+    "fr": {
+      "title": "Travaux Spécialisés",
+      "description": "Travaux techniques ciblés pour les besoins structurels, de performance et d’amélioration du bien."
+    }
+  }
+]

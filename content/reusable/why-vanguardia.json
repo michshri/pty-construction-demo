@@ -1,0 +1,54 @@
+[
+  {
+    "id": "one-point-of-responsibility",
+    "title": {
+      "en": "One Point of Responsibility",
+      "es": "Un solo punto de responsabilidad",
+      "fr": "Un seul point de responsabilité"
+    },
+    "copy": {
+      "en": "Construction, maintenance and property services coordinated through one company.",
+      "es": "Servicios de construcción, mantenimiento y propiedades coordinados a través de una misma empresa.",
+      "fr": "Construction, maintenance et services immobiliers coordonnés par une seule entreprise."
+    }
+  },
+  {
+    "id": "practical-project-control",
+    "title": {
+      "en": "Practical Project Control",
+      "es": "Control práctico del proyecto",
+      "fr": "Contrôle pratique du projet"
+    },
+    "copy": {
+      "en": "Clear scope, communication, coordination and follow-through.",
+      "es": "Alcance claro, comunicación, coordinación y seguimiento constante.",
+      "fr": "Périmètre clair, communication, coordination et suivi rigoureux."
+    }
+  },
+  {
+    "id": "reliable-local-execution",
+    "title": {
+      "en": "Reliable Local Execution",
+      "es": "Ejecución local fiable",
+      "fr": "Exécution locale fiable"
+    },
+    "copy": {
+      "en": "A local team that understands the realities of working with properties in Panama.",
+      "es": "Un equipo local que entiende la realidad de trabajar con propiedades en Panamá.",
+      "fr": "Une équipe locale qui comprend les réalités de la gestion immobilière au Panama."
+    }
+  },
+  {
+    "id": "built-for-long-term-relationships",
+    "title": {
+      "en": "Built for Long-Term Relationships",
+      "es": "Pensado para relaciones a largo plazo",
+      "fr": "Conçu pour des relations durables"
+    },
+    "copy": {
+      "en": "The objective is not simply to complete a job, but to become a dependable property partner.",
+      "es": "El objetivo no es solo completar una obra, sino convertirse en un aliado de confianza para la propiedad.",
+      "fr": "L’objectif n’est pas seulement d’achever un travail, mais de devenir un partenaire immobilier fiable."
+    }
+  }
+]

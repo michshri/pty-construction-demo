@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "Vanguardia Construction and Property Management",
+    "shortName": "Vanguardia",
+    "location": "Panama",
+    "tagline": "Construction, Maintenance & Property Management — Done Properly.",
+    "description": "Reliable construction and property services for residential, commercial, industrial and PH properties in Panama."
+  },
+  "nav": {
+    "services": { "en": "Services", "es": "Servicios", "fr": "Services" },
+    "segments": { "en": "Who We Serve", "es": "A Quiénes Atendemos", "fr": "À Qui Nous Servons" },
+    "about": { "en": "About", "es": "Nosotros", "fr": "À propos" },
+    "projects": { "en": "Projects", "es": "Proyectos", "fr": "Projets" },
+    "contact": { "en": "Contact", "es": "Contacto", "fr": "Contact" },
+    "cta": { "en": "Request a Consultation", "es": "Solicitar una Consulta", "fr": "Demander une Consultation" }
+  },
+  "contact": {
+    "email": "Contact available on request",
+    "phone": "Available on request",
+    "address": "Panama",
+    "availability": "Consultation available by request"
+  },
+  "footer": {
+    "servicesLabel": { "en": "Services", "es": "Servicios", "fr": "Services" },
+    "segmentsLabel": { "en": "Who We Serve", "es": "A Quiénes Atendemos", "fr": "À Qui Nous Servons" },
+    "companyLabel": { "en": "Company", "es": "Empresa", "fr": "Entreprise" }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "step": "01",
+    "id": "assess",
+    "title": { "en": "Assess", "es": "Evaluar", "fr": "Évaluer" },
+    "copy": {
+      "en": "Understand the property, problem or project.",
+      "es": "Comprender la propiedad, el problema o el proyecto.",
+      "fr": "Comprendre le bien, le problème ou le projet."
+    }
+  },
+  {
+    "step": "02",
+    "id": "plan",
+    "title": { "en": "Plan", "es": "Planificar", "fr": "Planifier" },
+    "copy": {
+      "en": "Define scope, priorities, budget and execution.",
+      "es": "Definir alcance, prioridades, presupuesto y ejecución.",
+      "fr": "Définir le périmètre, les priorités, le budget et l’exécution."
+    }
+  },
+  {
+    "step": "03",
+    "id": "execute",
+    "title": { "en": "Execute", "es": "Ejecutar", "fr": "Exécuter" },
+    "copy": {
+      "en": "Coordinate the work and keep the project moving.",
+      "es": "Coordinar el trabajo y mantener el proyecto en movimiento.",
+      "fr": "Coordonner les travaux et faire avancer le projet."
+    }
+  },
+  {
+    "step": "04",
+    "id": "complete",
+    "title": { "en": "Complete", "es": "Finalizar", "fr": "Terminer" },
+    "copy": {
+      "en": "Review the work, resolve outstanding items and hand over properly.",
+      "es": "Revisar el trabajo, resolver pendientes y entregar correctamente.",
+      "fr": "Vérifier le travail, régler les derniers points et livrer correctement."
+    }
+  }
+]
