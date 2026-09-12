@@ -19,27 +19,29 @@
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-<nav>
-<a href="index.html" class="logo">VANGUARDIA</a>
-<button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
-<span></span><span></span><span></span>
-</button>
-<div class="nav-links" id="primary-nav">
-<div class="nav-item dropdown">
-<button class="dropdown-toggle" type="button" aria-expanded="false">Services <span class="caret">▾</span></button>
-<div class="dropdown-menu">
-<a href="construction.html">Construction</a>
-<a href="renovations.html">Rénovations</a>
-<a href="property-management.html">Gestion immobilière</a>
-<a href="investment.html">Soutien à l’investissement</a>
-</div>
-</div>
-<a href="index.html#projects">Projets</a>
-<a href="index.html#about">À propos</a>
-<a class="button nav-cta" href="contact.html">Contact</a>
-<span class="lang-switch"><a href="../en/contact.html">EN</a><a href="contact.html" class="active">FR</a><a href="../es/contact.html">ES</a></span>
-</div>
-</nav>
+<header class="site-header">
+  <div class="container nav-shell">
+    <a href="index.html" class="brand" aria-label="Vanguardia accueil">
+      <img src="../Vanguardia Logo.jpg" alt="Vanguardia Construction" />
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="primary-nav" aria-label="Navigation principale">
+      <a href="services.html">Services</a>
+      <a href="who-we-serve.html">À Qui Nous Servons</a>
+      <a href="about.html">À propos</a>
+      <a href="projects.html">Projets</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a class="button button-primary nav-cta" href="contact.html">Demander une Consultation</a>
+      <div class="lang-switch" aria-label="Sélecteur de langue">
+        <a href="../en/contact.html" aria-label="Anglais">EN</a>
+        <a href="contact.html" class="active" aria-label="Français">FR</a>
+        <a href="../es/contact.html" aria-label="Espagnol">ES</a>
+      </div>
+    </nav>
+  </div>
+</header>
 <div class="hero hero-sub" style="background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1920&q=80');">
 <div class="hero-inner">
 <span class="hero-label">Contact</span>
