@@ -4,6 +4,31 @@ const toggle = document.querySelector('.nav-toggle');
 const locale = document.documentElement.lang || 'en';
 const contentBase = (window.location.pathname.includes('/es/') || window.location.pathname.includes('/fr/')) ? '../content/' : 'content/';
 
+const trackGaEvent = (eventName, params = {}) => {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', eventName, params);
+  }
+};
+
+const initGoogleAnalytics = () => {
+  if (typeof window.gtag !== 'function' || window.__vanguardiaGAInitialized) return;
+
+  window.__vanguardiaGAInitialized = true;
+
+  window.gtag('config', 'G-LJX72YS86V', {
+    anonymize_ip: true,
+    page_path: window.location.pathname,
+    page_title: document.title,
+    send_page_view: true
+  });
+
+  trackGaEvent('page_view', {
+    page_title: document.title,
+    page_location: window.location.href,
+    page_path: window.location.pathname
+  });
+};
+
 const defaultContent = {
   services: [
     { active: true, order: 1, image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80', link: '#services', cta: { en: 'Learn More', es: 'Más información', fr: 'En savoir plus' }, en: { title: 'Construction & Renovation', description: 'Planning, delivery and quality-led renovation work for homes, buildings and properties that need careful execution.' }, es: { title: 'Construcción y Renovación', description: 'Planificación, ejecución y trabajos de renovación con atención a la calidad para viviendas, edificios y propiedades.' }, fr: { title: 'Construction & Rénovation', description: 'Planification, exécution et travaux de rénovation orientés qualité pour maisons, bâtiments et propriétés.' } },
@@ -78,6 +103,27 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 760) {
     closeMenu();
   }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  initGoogleAnalytics();
+
+  document.querySelectorAll('a[href], button').forEach((element) => {
+    element.addEventListener('click', () => {
+      const href = element.getAttribute('href') || '';
+      const text = (element.textContent || '').trim();
+      const eventName = href.startsWith('mailto:') ? 'contact_click' : 'cta_click';
+
+      if (!text && !href) return;
+
+      trackGaEvent(eventName, {
+        event_category: 'navigation',
+        event_label: text || href,
+        page_path: window.location.pathname,
+        link_url: href
+      });
+    });
+  });
 });
 
 const textFor = (value, field) => {

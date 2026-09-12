@@ -1,10 +1,10 @@
 {
   "meta": {
     "en": {
-      "title": "Vanguardia Construction & Property Management | Panama",
+      "title": "Vanguardia Construction | Panama",
       "description": "Reliable construction, maintenance and property management services for residential, commercial, industrial and PH properties in Panama.",
       "canonical": "/",
-      "ogTitle": "Vanguardia Construction & Property Management",
+      "ogTitle": "Vanguardia Construction",
       "ogDescription": "Construction, maintenance and property management for residential, commercial, industrial and PH properties in Panama."
     },
     "es": {
@@ -162,9 +162,9 @@
   },
   "footer": {
     "company": {
-      "en": "Vanguardia Construction and Property Management",
-      "es": "Vanguardia Construcción y Gestión de Propiedades",
-      "fr": "Vanguardia Construction et Gestion Immobilière"
+      "en": "Vanguardia Construction",
+      "es": "Vanguardia Construcción",
+      "fr": "Vanguardia Construction"
     },
     "location": {
       "en": "Panama",
