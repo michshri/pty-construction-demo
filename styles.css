@@ -96,12 +96,13 @@ a {
   color: var(--color-text);
   min-width: 0;
   flex-shrink: 0;
+  max-width: 230px;
 }
 
 .brand img {
   display: block;
-  height: 52px;
   width: clamp(150px, 15vw, 220px);
+  height: auto;
   max-width: 100%;
   object-fit: contain;
   background: transparent;
@@ -712,8 +713,8 @@ a {
 
 @media (max-width: 760px) {
   .brand img {
-    height: 42px;
     width: clamp(128px, 42vw, 180px);
+    height: auto;
   }
 
   .nav-toggle {
@@ -817,8 +818,15 @@ a {
 
 /* Subpage heroes */
 .hero.hero-sub {
-  min-height: 55vh;
-  padding-top: calc(var(--nav-height) + 2rem);
+  min-height: 52vh;
+  padding-top: calc(var(--nav-height) + 4rem);
+  padding-bottom: 4rem;
+}
+
+.hero.hero-sub .hero-inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .hero.hero-sub h1 {
